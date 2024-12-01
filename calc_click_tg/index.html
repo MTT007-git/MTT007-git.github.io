@@ -23,4 +23,8 @@
     <button class="header_b" onclick="document.location = 'https://MTT007-git.github.io/'">MTT007</button>
     <button class="header_b" onclick="document.location = 'https://MTT007-git.github.io/calc_click_tg/'">Calculator Clicker</button>
   </div>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    params.forEach((value, key) => {console.log(key, value);});
+  </script>
 </body>
